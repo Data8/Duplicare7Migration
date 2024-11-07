@@ -23,6 +23,10 @@ This tool must be run within XrmToolBox. If you have an active Duplicare license
 
 The source code for the Duplicare 7 XrmToolBox Migration Tool is publicly available. You can review the code to understand the migration process and make modifications if desired.
 
+## How to use
+
+If you would like to use our released version, please download the latest .dll file from the releases and place it in the "Plugins" folder, wherever your XrmToolBox tool is saved.
+
 ## Note
 
 If you are online and have an existing Duplicare integration, you will be required to follow this migration process to ensure continued functionality.
