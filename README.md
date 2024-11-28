@@ -11,9 +11,10 @@ The Duplicare 7 XrmToolBox Migration Tool facilitates the transition from the ol
 
 ## Documentation Links
 
-For more information on the changes and features regarding dependent assemblies, please refer to the official documentation:
-- [Power Platform Assembly Management](https://learn.microsoft.com/en-us/power-platform/developer/common-data-service/dependent-assemblies)
-- [Plugin Assemblies Overview](https://learn.microsoft.com/en-us/power-platform/developer/common-data-service/plugin-assemblies)
+For more information on the changes and features regarding dependent assemblies, please refer to the official documentation on the modern way to make plugins:
+- [Build and package plug-in code](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/build-and-package)
+
+TLDR; moving from the .dll plugins to toe .nupkg plugins requires SDK message steps to be pointed to the new assembly.
 
 ## Usage
 
