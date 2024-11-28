@@ -131,7 +131,7 @@ The follow steps are completed:
 4) If specified, the API key is set.</value>
   </data>
   <data name="solutionLocationTextBox.Text" xml:space="preserve">
-    <value>https://data8storage.blob.core.windows.net/appsource/Data8DuplicateDetectionPlus_7_1_0_managed.zip?sp=r&st=2024-11-28T12:15:27Z&se=2025-02-22T20:15:27Z&spr=https&sv=2022-11-02&sr=b&sig=OnV%2BoLJUxYJoayAKs7N33DeSr8UEBtW0krwlmo4AvIU%3D</value>
+    <value>https://data8storage.blob.core.windows.net/appsource/Data8DuplicateDetectionPlus_7_1_1_managed.zip?sp=r&st=2024-11-28T14:15:42Z&se=2025-01-31T22:15:42Z&spr=https&sv=2022-11-02&sr=b&sig=22VWJUK2lk4p2OLLNDbbA542bEn9vSroG8fIzCod9XM%3D</value>
   </data>
   <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>208, 17</value>
