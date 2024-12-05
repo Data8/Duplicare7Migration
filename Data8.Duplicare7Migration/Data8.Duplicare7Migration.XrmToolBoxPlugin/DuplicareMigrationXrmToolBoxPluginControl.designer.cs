@@ -53,10 +53,10 @@
             // 
             // startMigrationButton
             // 
-            this.startMigrationButton.Location = new System.Drawing.Point(20, 213);
-            this.startMigrationButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.startMigrationButton.Location = new System.Drawing.Point(10, 111);
+            this.startMigrationButton.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.startMigrationButton.Name = "startMigrationButton";
-            this.startMigrationButton.Size = new System.Drawing.Size(312, 44);
+            this.startMigrationButton.Size = new System.Drawing.Size(156, 23);
             this.startMigrationButton.TabIndex = 5;
             this.startMigrationButton.Text = "Start Migration";
             this.startMigrationButton.UseVisualStyleBackColor = true;
@@ -68,10 +68,10 @@
             this.tabControl1.Controls.Add(this.settingsTab);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1746, 960);
+            this.tabControl1.Size = new System.Drawing.Size(873, 499);
             this.tabControl1.TabIndex = 6;
             // 
             // migrationTab
@@ -80,11 +80,11 @@
             this.migrationTab.Controls.Add(this.logMessageListView);
             this.migrationTab.Controls.Add(this.startMigrationButton);
             this.migrationTab.Controls.Add(this.label1);
-            this.migrationTab.Location = new System.Drawing.Point(8, 39);
-            this.migrationTab.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.migrationTab.Location = new System.Drawing.Point(4, 22);
+            this.migrationTab.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.migrationTab.Name = "migrationTab";
-            this.migrationTab.Padding = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.migrationTab.Size = new System.Drawing.Size(1730, 913);
+            this.migrationTab.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.migrationTab.Size = new System.Drawing.Size(865, 473);
             this.migrationTab.TabIndex = 0;
             this.migrationTab.Text = "Migrate";
             this.migrationTab.UseVisualStyleBackColor = true;
@@ -92,11 +92,11 @@
             // apiKeyGroup
             // 
             this.apiKeyGroup.Controls.Add(this.apiKeyTextBox);
-            this.apiKeyGroup.Location = new System.Drawing.Point(728, 75);
-            this.apiKeyGroup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.apiKeyGroup.Location = new System.Drawing.Point(364, 39);
+            this.apiKeyGroup.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.apiKeyGroup.Name = "apiKeyGroup";
-            this.apiKeyGroup.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.apiKeyGroup.Size = new System.Drawing.Size(740, 119);
+            this.apiKeyGroup.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.apiKeyGroup.Size = new System.Drawing.Size(370, 62);
             this.apiKeyGroup.TabIndex = 9;
             this.apiKeyGroup.TabStop = false;
             this.apiKeyGroup.Text = "API Key";
@@ -105,10 +105,10 @@
             // 
             this.apiKeyTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.apiKeyTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.apiKeyTextBox.Location = new System.Drawing.Point(4, 28);
-            this.apiKeyTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.apiKeyTextBox.Location = new System.Drawing.Point(2, 15);
+            this.apiKeyTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.apiKeyTextBox.Name = "apiKeyTextBox";
-            this.apiKeyTextBox.Size = new System.Drawing.Size(732, 68);
+            this.apiKeyTextBox.Size = new System.Drawing.Size(366, 38);
             this.apiKeyTextBox.TabIndex = 8;
             // 
             // logMessageListView
@@ -121,10 +121,10 @@
             this.logColumn});
             this.logMessageListView.FullRowSelect = true;
             this.logMessageListView.HideSelection = false;
-            this.logMessageListView.Location = new System.Drawing.Point(20, 269);
-            this.logMessageListView.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.logMessageListView.Location = new System.Drawing.Point(10, 140);
+            this.logMessageListView.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.logMessageListView.Name = "logMessageListView";
-            this.logMessageListView.Size = new System.Drawing.Size(1694, 625);
+            this.logMessageListView.Size = new System.Drawing.Size(849, 327);
             this.logMessageListView.SmallImageList = this.imageList1;
             this.logMessageListView.TabIndex = 7;
             this.logMessageListView.UseCompatibleStateImageBehavior = false;
@@ -149,20 +149,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 6);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(6, 3);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1547, 200);
+            this.label1.Size = new System.Drawing.Size(759, 104);
             this.label1.TabIndex = 6;
             this.label1.Text = resources.GetString("label1.Text");
             // 
             // settingsTab
             // 
             this.settingsTab.Controls.Add(this.solutionGroup);
-            this.settingsTab.Location = new System.Drawing.Point(8, 39);
-            this.settingsTab.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.settingsTab.Location = new System.Drawing.Point(4, 22);
             this.settingsTab.Name = "settingsTab";
-            this.settingsTab.Size = new System.Drawing.Size(1730, 913);
+            this.settingsTab.Size = new System.Drawing.Size(865, 473);
             this.settingsTab.TabIndex = 1;
             this.settingsTab.Text = "Settings";
             this.settingsTab.UseVisualStyleBackColor = true;
@@ -170,11 +169,11 @@
             // solutionGroup
             // 
             this.solutionGroup.Controls.Add(this.solutionLocationTextBox);
-            this.solutionGroup.Location = new System.Drawing.Point(4, 4);
-            this.solutionGroup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.solutionGroup.Location = new System.Drawing.Point(2, 2);
+            this.solutionGroup.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.solutionGroup.Name = "solutionGroup";
-            this.solutionGroup.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.solutionGroup.Size = new System.Drawing.Size(1516, 119);
+            this.solutionGroup.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.solutionGroup.Size = new System.Drawing.Size(758, 62);
             this.solutionGroup.TabIndex = 10;
             this.solutionGroup.TabStop = false;
             this.solutionGroup.Text = "Solution Location";
@@ -183,21 +182,21 @@
             // 
             this.solutionLocationTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.solutionLocationTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.solutionLocationTextBox.Location = new System.Drawing.Point(4, 28);
-            this.solutionLocationTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.solutionLocationTextBox.Location = new System.Drawing.Point(2, 15);
+            this.solutionLocationTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.solutionLocationTextBox.Name = "solutionLocationTextBox";
-            this.solutionLocationTextBox.Size = new System.Drawing.Size(1508, 37);
+            this.solutionLocationTextBox.Size = new System.Drawing.Size(754, 22);
             this.solutionLocationTextBox.TabIndex = 8;
             this.solutionLocationTextBox.Text = resources.GetString("solutionLocationTextBox.Text");
             // 
             // DuplicareMigrationXrmToolBoxPluginControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "DuplicareMigrationXrmToolBoxPluginControl";
-            this.Size = new System.Drawing.Size(1746, 960);
+            this.Size = new System.Drawing.Size(873, 499);
             this.Load += new System.EventHandler(this.Data8DuplicareXrmToolBoxPluginControl_Load);
             this.tabControl1.ResumeLayout(false);
             this.migrationTab.ResumeLayout(false);
